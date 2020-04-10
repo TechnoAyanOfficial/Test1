@@ -1,7 +1,7 @@
 """Carbon Scraper Plugin for Userbot. //text in creative way.
 usage: .karb //as a reply to any text message
 
-Thanks to @r4v4n4 for vars,,, Random RGB feature by @PhycoNinja13b"""
+Thanks to @TheRajput for vars,,, Random RGB feature by @PhycoNinja13b"""
 
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.options import Options
@@ -100,7 +100,7 @@ async def carbon_api(e):
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="Carbonised by [GujjuBot](https://t.me/Gujju_Bot_Support)",
+         caption="Carbonised by [TheRajput](https://t.me/TheRajput)",
          force_document=False,
          reply_to=e.message.reply_to_msg_id,
          )
