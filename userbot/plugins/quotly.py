@@ -25,7 +25,7 @@ async def _(event):
     await event.edit("```Making a Quote```")
     async with event.client.conversation(chat) as conv:
           try:     
-              response = conv.wait_event(events.NewMessage(incoming=True,from_users=1025131461))
+              response = conv.wait_event(events.NewMessage(incoming=True,from_users=1031952739))
               await event.client.forward_messages(chat, reply_message)
               response = await response 
           except YouBlockedUserError: 
