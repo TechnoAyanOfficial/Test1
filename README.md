@@ -1,57 +1,9 @@
-# AaryanBots
-This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram.
-
-For any query or want to know how it works join
-# https://t.me/TheRajput
-
-# FORK AT YOUR OWN RISK
-# Installing
-
-### The Easy Way
-
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-### The Normal Way
-
-Simply clone the repository and run the main file:
-```sh
-git clone https://github.com/AaryanBots/AaryanBot
-cd AaryanBot
-virtualenv -p /usr/bin/python3 venv
-. ./venv/bin/activate
-pip install -r requirements.txt
-# <Create local_config.py with variables as given below>
-python3 -m userbot
-```
-
-An example `local_config.py` file could be:
-
-**Not All of the variables are mandatory**
-
-__The Userbot should work by setting only the first two variables__
-
-```python3
-from heroku_config import Var
-
-class Development(Var):
-  APP_ID = 6
-  API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
-```
-
-### UniBorg Configuration
-
-The UniBorg Config is situated in `userbot/uniborgConfig.py`.
-
-**Heroku Configuration**
-Simply just leave the Config as it is.
-
-**Local Configuration**
-Fortunately there are no Mandatory vars for the UniBorg Support Config.
-
-## Mandatory Vars
-
-- Only two of the environment variables are mandatory.
-- This is because of `telethon.errors.rpc_error_list.ApiIdPublishedFloodError`
-    - `APP_ID`:   You can get this value from https://my.telegram.org
-    - `API_HASH`:   You can get this value from https://my.telegram.org
-- The userbot will not work without setting the mandatory vars.
+<h1 align="center">TheRajputBoT</h1>
+<p align="center"><a href="#how-to-host">How To Host</a> | <a href="#updates-and-support">Updates and Support</a> </p>
+<h3 align="center">This is a Userbot made for Telegram</h3>
+<h2 align="center">How To Host</h2>
+<h2 align="center">The easiest way to deploy mah bot! is click on the image below</h2>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/AaryanBots/AaryanBot"> <img src="https://telegra.ph/file/b4313aef850f2f123a359.jpg" alt="Deploy to Heroku" /></a></p>
+<h2 align="center">Updates and Support</h2>
+<p align="center">Join our <a href="https://t.me/TheRajput">Telegram Channel</a> for update notifications!</p>
+<p align="center">Also join our <a href="https://t.me/TheRajput">Telegram Support Group</a> for help and support!</p>
